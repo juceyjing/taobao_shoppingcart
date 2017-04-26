@@ -47,3 +47,12 @@ h1,div,ul,li,p,span{
 .rightSide>li{
 	float: left;
 }
+
+.nav-myTao-nav{
+	border: 1px solid #ddd;
+	display: none;
+}
+
+
+
+
