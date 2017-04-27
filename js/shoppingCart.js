@@ -3,6 +3,20 @@ $(document).ready(function(){
 	$(".nav_myTao").hover(function(){
 		$(this).css({
 			"background":"#fff"
-		}).find(".nav-myTao_nav").show();
+			
+		}).find(".nav-myTao-nav").show();
+	},function(){
+		$(this).css({
+			"background":"#f5f5f5"
+		}).find(".nav-myTao-nav").hide();
+	});
+	$(".nav_collection").hover(function(){
+		$(this).css({
+			"background":"#fff"
+		}).find(".nav-myTao-nav").show();
+	},function(){
+		$(this).css({
+			"background":"#f5f5f5"
+		}).find(".nav-myTao-nav").hide();
 	})
 })
